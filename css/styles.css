@@ -57,6 +57,9 @@ main .container .bg{
     align-items: center;
     justify-content: center;
 }
+main .container .cor{
+    background-color: #181818;
+}
 main .container .item2{
     background-color: transparent;
 }
@@ -135,6 +138,7 @@ footer .bg{
     background-color: #80720D;
     border-radius: 15px;
     margin-bottom: 5px;
+    margin-top: 40px;
 }
 footer .bg .item{
     width: 100px;
@@ -169,16 +173,22 @@ footer .bg h2{
         transform: scale(1.08);
     }
     main .container > .item1{
-        border-radius: 20px 0 0 20px;
         width: 50vw;
     }
     main .container > .item2{
-        background-color: #181818;
-        border-radius: 0 20px 20px 0;
         width: 50vw;
     }
     main .container > .item3{
         background-color: transparent;
+        width: 50vw;
+    }
+    main .container > .cor__direita{
+        background-color: #181818;
+        border-radius: 0 20px 20px 0;
+    }
+    main .container > .cor__esquerda{
+        background-color: #181818;
+        border-radius: 20px 0 0 20px;
     }
     main .botao{
         margin-top: 80px;
@@ -188,6 +198,9 @@ footer .bg h2{
         height: 100px;
         justify-content: center;
         gap: 20px;
+        margin-top: 40px;
+        margin-bottom: 0;
+        border-radius: 20px 20px 0 0;
     }
     footer .item{
         min-width: 202px;
