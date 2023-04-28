@@ -23,7 +23,8 @@ main .bg__img{
 } */
 main h1{
     font-size: 30px;
-    margin-top: 20px;
+    margin: 30px 50px 20px 50px;
+
 }
 main .container__plataformas{
     background-color: #80720D;
@@ -133,5 +134,28 @@ main .container__HLB .container__horas .horas > h2{
     }
     main .container > .container__HLB .titulo__HLB{
         border-radius: 10px 10px 0 0;
+    }
+}
+
+@media (min-width: 1100px){
+    main .container{
+        background-color: transparent;
+    }
+    main .bg__img{
+        background-image: url(../img/jogos/ResidentEvil4RemakeCapaPC.svg);
+        background-repeat: no-repeat;
+        width: 1075px;
+        height: 572px;
+    }
+    main .container{
+        margin: -80px 0 0 0;
+        justify-content: center;
+    }
+
+    main .container__plataformas .botoes{
+        transition: 0.5s;
+    }
+    main .container__plataformas .botoes:hover{
+        transform: scale(1.04);
     }
 }
