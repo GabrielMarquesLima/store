@@ -131,4 +131,7 @@ main .container__HLB .container__horas .horas > h2{
     main .container > .container__HLB{
         margin: 280px 0 0 -40px;
     }
+    main .container > .container__HLB .titulo__HLB{
+        border-radius: 10px 10px 0 0;
+    }
 }
