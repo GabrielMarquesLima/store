@@ -1,0 +1,57 @@
+:root{
+    --textos__principais: 'Questrial', sans-serif;
+    --textos__secundarios: 'Arimo', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+main .bg__contato{
+    background-color: #FFE419;
+    border-radius: 20px;
+    width: 80vw;
+}
+main .bg__contato form{
+    margin: 20px;
+}
+main .bg__contato form .pnome,.snome, .email, .assunto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+main .bg__contato form h1{
+    color: #181818;
+    font-size: 25px;
+    margin: 10px 0;
+}
+main .bg__contato form input{
+    border-radius: 10px;
+    height: 20px;
+    width: 70%;
+    border: 1px solid #181818;
+}
+main .bg__contato form .assunto textarea{
+    font-family: var(--textos__principais);   
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid #181818;
+}
+main .bg__contato form .botao input{
+    font-family: var(--textos__principais);
+    margin: 0;
+
+}
+@media (min-width: 649px){
+    main .bg__contato form .assunto textarea{
+        width: 70%;
+    }
+}
+@media (min-width: 1099px){
+    main .bg__contato{
+        width: 50vw;
+    } 
+}
