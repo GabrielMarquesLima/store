@@ -45,6 +45,29 @@ main .bg__contato form .botao input{
     margin: 0;
 
 }
+main .bg__contato .enviar{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+main .bg__contato .enviar button{
+    border-radius: 10px;
+    background-color: #FFE419;
+    border: 1px solid #181818;
+    transition: 0.5s;
+}
+main .bg__contato .enviar button:hover, main .bg__contato .enviar button h1:hover{
+    transform: scale(1.05);
+    background-color: #181818;
+    color: white;
+
+}
+main .bg__contato .enviar button > h1{
+    padding: 10px 20px 10px 20px;
+    margin: 0;
+    border-radius: 10px;
+    transition: 0.6s;
+}
 @media (min-width: 649px){
     main .bg__contato form .assunto textarea{
         width: 70%;
