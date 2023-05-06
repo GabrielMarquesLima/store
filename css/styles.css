@@ -252,6 +252,10 @@ footer .bg h2{
         margin: 10px 0 0 10px;
     }
     header:hover{
+        transform: scale(1.00);
+        background-color: #FFE419;
+    }
+    header .home:hover, header .carrinho:hover, header .contato:hover{
         transform: scale(1.05);
     }
     header a .home, a .carrinho, a .contato{
