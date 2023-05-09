@@ -4,12 +4,12 @@ main .bg__img{
     height: 320px;
     margin-top: 100px;
     background-position: center;
-    background-image: url(../img/jogos/gowRagnarok/mobile.svg);
+    background-image: url(../img/jogos/gowRagnarok/mobile.webp);
     border: 10px solid #181818;
 }
 @media (min-width: 649px){
     main .bg__img{
-        background-image: url(../img/jogos/gowRagnarok/tablet.svg);
+        background-image: url(../img/jogos/gowRagnarok/tablet.webp);
         width: 660px;
         height: 365px;
     }
@@ -21,7 +21,7 @@ main .bg__img{
 @media (min-width: 1100px){
 
     main .bg__img{
-        background-image: url(../img/jogos/gowRagnarok/desktop.svg);
+        background-image: url(../img/jogos/gowRagnarok/desktop.webp);
         width: 1075px;
         height: 572px;
     }

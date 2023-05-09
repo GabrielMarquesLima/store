@@ -1,0 +1,25 @@
+main .bg__img{
+    width: 320px;
+    border-radius: 20px;
+    height: 320px;
+    margin-top: 100px;
+    background-position: center;
+    background-image: url(../img/jogos/residentEvil4Remake/mobile.webp);
+    border: 10px solid #181818;
+}
+@media (min-width: 649px){
+    main .bg__img{
+        background-image: url(../img/jogos/residentEvil4Remake/tablet.webp);
+        width: 660px;
+        height: 365px;
+    }
+}
+
+@media (min-width: 1100px){
+
+    main .bg__img{
+        background-image: url(../img/jogos/residentEvil4Remake/desktop.webp);
+        width: 1075px;
+        height: 572px;
+    }
+}
